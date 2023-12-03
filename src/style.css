@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 32px;
+  background-color: #111111;
+  color: #e1e1e1;
+}
+
+.l-title {
+  font-size: 24px;
+}
+.l-panes {
+  display: flex;
+  justify-content: space-between;
+}
+.l-pane {
+  padding: 16px;
+}
+.l-control {
+  padding: 8px;
+  border-bottom: #444 solid 1px;
+}
+.l-form-label-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.l-form-title {
+  font-weight: 700;
+}
+.l-input {
+  appearance: none;
+  border: 0;
+  background-color: rgba(255, 255, 255, .85);
+  padding: 4px;
+}
+.l-textarea {
+  min-height: 100px;
+}
+.l-button {
+  appearance: none;
+  background: transparent;
+  border: #fff solid 1px;
+  color: #fff;
+  margin: 16px 0 ;
+  padding: 8px 32px;
+  font-size: 16px;
+}
+.l-tiles {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.l-tile {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.l-tile-image {
+  width: 100%;
+}
+.l-link {
+  color: #fff;
+}
+
+.l-w-30 {
+  width: 30%;
+}
+.l-w-70 {
+  width: 70%;
+}
+.l-w-100 {
+  width: 100%;
+}
